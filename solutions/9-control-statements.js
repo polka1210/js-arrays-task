@@ -14,4 +14,5 @@ const getTotalAmount = (transactions, currency) => {
 };
 
 export { getTotalAmount };
+export default getTotalAmount;
 // END

@@ -1,9 +1,9 @@
 // BEGIN
-const get = (array, index, defaultvalue = null) => {
-    if (index >= 0 && index < array.lengh) {
+const get = (array, index, defaultValue = null) => {
+    if (index >= 0 && index < array.length) {
         return array[index];
     }
-    return defaultvalue;
+    return defaultValue;
 };
 
 export { get };
