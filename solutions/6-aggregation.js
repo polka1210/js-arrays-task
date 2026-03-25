@@ -2,9 +2,9 @@
 const calculateSum = (numbers) => {
     let sum = 0;
     for (let x = 0; x < numbers.length; x++) {
-        const currentNumber = numbers[x];
-       if (currentNumber > 10) {
-        sum += currentNumber; 
+        const num = numbers[x];
+       if (num % 2 !== 0 num < 20) {
+        sum += num; 
     }
 }
 return sum;
