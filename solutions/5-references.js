@@ -9,5 +9,5 @@ const reverse = (arr) => {
     return arr;
 };
 
-export default reverse;
+export { reverse };
 // END

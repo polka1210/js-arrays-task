@@ -6,5 +6,5 @@ const get = (array, index, defaultvalue = null) => {
     return defaultvalue;
 };
 
-export default get;
+export { get };
 // END

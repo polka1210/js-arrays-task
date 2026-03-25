@@ -3,14 +3,15 @@ const getTotalAmount = (transactions, currency) => {
     let total = 0;
     for (let x = 0; x < transactions.length; x++) {
         const transaction = transactions[x];
-        const [curr, amountStr] = transaction.split('');
-        const amount = Number(amountStr);
+        const parts = transactions.split('');
+        const curr = parts[0];
+        const amount = Number(parts[1]);
         if (curr === currency) {
-            total += amount;
+            total = total + amount;
         }
     }
     return total;
 };
 
-export default getTotalAmount;
+export { getTotalAmount };
 // END

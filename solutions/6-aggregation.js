@@ -8,5 +8,5 @@ const calculateSum = (numbers) => {
 }
 return sum;
 };
-export default calculateSum;
+export { calculateSum };
 // END

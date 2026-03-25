@@ -8,5 +8,5 @@ const swap = (arr) => {
     return result;
 };
 
-export default swap;
+export { swap };
 // END
